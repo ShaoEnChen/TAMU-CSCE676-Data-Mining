@@ -1,0 +1,11 @@
+CSCE 676 Data Mining
+527001427 Shao-En Chen
+Homework 3
+
+The motivation of the visualization I created is that, provided the unemployment rates of each major, it’s intuitive to want to see which are the highest unemployed majors. If I were someone whose major has a high unemployment rate, I may want to change my major. So I created a bar chart of the unemployment rates of all these majors, sorted from high to low. Because there are too many majors, I chose to only show the top 10.
+
+However, knowing that the unemployment rate of my major is relatively high doesn’t really help me make decisions because comparing unemployment rates of different majors doesn’t make sense, as they have different market needs and unemployment involves a lot of factors. So, I thought providing the “average” unemployment rates of majors in the same category should help. If the unemployment rate of one’s major seems high, and the average unemployment rate of the specific major category is also “high”, then it seems ok as that is how the environment is. If the unemployment rate of one’s major seems high, but the average unemployment rate of the major category is low, then that major may be in special conditions and the person can think about changing her major. As the average unemployment rate is just a support of each major’s unemployment rate, I chose to use an overlapping line chart to display this information, and use a darker color so it’s clear to see.
+
+The advantage of my visualization is that it’s clear and easy to understand. However, the downside is that when the user wants to see unemployment rates of other majors in the same category, my chart can’t provide the functionality, although it seems intuitive for the user to do so. Also, although I can display all 174 majors, the amount of information may be too much for the user to find her major, and the compactness of the chart may make it hard to read.
+
+To access the data of the average unemployment rates, I summed up the employment and unemployment number by major categories, and get the new unemployment rates of each category. Then I used bokeh to draw the visualization. I chose it only because I’ve never used it, and their website and documents seem nice.

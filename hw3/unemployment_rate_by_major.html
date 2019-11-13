@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.4.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="16d29970-516b-4fef-9a1b-bd1cbf47f9ac" data-root-id="1001"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1181">
+          {"24a7eb36-fcc6-4786-ad00-879a707b27e1":{"roots":{"references":[{"attributes":{},"id":"1021","type":"PanTool"},{"attributes":{},"id":"1042","type":"BasicTickFormatter"},{"attributes":{"data_source":{"id":"1034","type":"ColumnDataSource"},"glyph":{"id":"1035","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1036","type":"VBar"},"selection_glyph":null,"view":{"id":"1038","type":"CDSView"}},"id":"1037","type":"GlyphRenderer"},{"attributes":{"callback":null,"data":{"top":{"__ndarray__":"H7sG21qvxj9GfIIfMGrEP04FfIHQb8M/oAf45wIUwz9fXhPhRXDAP0oX2rpNmL4/Mv6K8IcDvj9ABl2I9i29P/yCteifC70/QQSMllIDvT8=","dtype":"float64","shape":[10]},"x":["NUCLEAR ENGINEERING","PUBLIC ADMINISTRATION","COMPUTER NETWORKING AND TELECOMMUNICATIONS","CLINICAL PSYCHOLOGY","PUBLIC POLICY","COMMUNICATION TECHNOLOGIES","MINING AND MINERAL ENGINEERING","COMPUTER PROGRAMMING AND DATA PROCESSING","GEOGRAPHY","ARCHITECTURE"]},"selected":{"id":"1059","type":"Selection"},"selection_policy":{"id":"1058","type":"UnionRenderers"}},"id":"1034","type":"ColumnDataSource"},{"attributes":{"line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"1048","type":"Line"},{"attributes":{"callback":null,"factors":["NUCLEAR ENGINEERING","PUBLIC ADMINISTRATION","COMPUTER NETWORKING AND TELECOMMUNICATIONS","CLINICAL PSYCHOLOGY","PUBLIC POLICY","COMMUNICATION TECHNOLOGIES","MINING AND MINERAL ENGINEERING","COMPUTER PROGRAMMING AND DATA PROCESSING","GEOGRAPHY","ARCHITECTURE"]},"id":"1004","type":"FactorRange"},{"attributes":{"click_policy":"hide","items":[{"id":"1046","type":"LegendItem"},{"id":"1060","type":"LegendItem"}],"title":"Unemployment Rate"},"id":"1045","type":"Legend"},{"attributes":{},"id":"1022","type":"WheelZoomTool"},{"attributes":{"overlay":{"id":"1044","type":"BoxAnnotation"}},"id":"1023","type":"BoxZoomTool"},{"attributes":{},"id":"1058","type":"UnionRenderers"},{"attributes":{},"id":"1024","type":"SaveTool"},{"attributes":{},"id":"1008","type":"CategoricalScale"},{"attributes":{"text":"Unemployment Rate By Major"},"id":"1002","type":"Title"},{"attributes":{"callback":null,"start":0},"id":"1006","type":"DataRange1d"},{"attributes":{},"id":"1025","type":"ResetTool"},{"attributes":{"label":{"value":"Major Category Average"},"renderers":[{"id":"1050","type":"GlyphRenderer"}]},"id":"1060","type":"LegendItem"},{"attributes":{},"id":"1070","type":"Selection"},{"attributes":{},"id":"1026","type":"HelpTool"},{"attributes":{},"id":"1010","type":"LinearScale"},{"attributes":{},"id":"1069","type":"UnionRenderers"},{"attributes":{"data_source":{"id":"1047","type":"ColumnDataSource"},"glyph":{"id":"1048","type":"Line"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1049","type":"Line"},"selection_glyph":null,"view":{"id":"1051","type":"CDSView"}},"id":"1050","type":"GlyphRenderer"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1021","type":"PanTool"},{"id":"1022","type":"WheelZoomTool"},{"id":"1023","type":"BoxZoomTool"},{"id":"1024","type":"SaveTool"},{"id":"1025","type":"ResetTool"},{"id":"1026","type":"HelpTool"}]},"id":"1027","type":"Toolbar"},{"attributes":{"formatter":{"id":"1040","type":"CategoricalTickFormatter"},"major_label_orientation":1.0471975511965976,"ticker":{"id":"1013","type":"CategoricalTicker"}},"id":"1012","type":"CategoricalAxis"},{"attributes":{},"id":"1017","type":"BasicTicker"},{"attributes":{},"id":"1013","type":"CategoricalTicker"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"top"},"width":{"value":0.4},"x":{"field":"x"}},"id":"1036","type":"VBar"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1044","type":"BoxAnnotation"},{"attributes":{"grid_line_color":null,"ticker":{"id":"1013","type":"CategoricalTicker"}},"id":"1015","type":"Grid"},{"attributes":{"source":{"id":"1034","type":"ColumnDataSource"}},"id":"1038","type":"CDSView"},{"attributes":{"line_alpha":0.1,"line_color":"#1f77b4","line_width":2,"x":{"field":"x"},"y":{"field":"y"}},"id":"1049","type":"Line"},{"attributes":{"dimension":1,"ticker":{"id":"1017","type":"BasicTicker"}},"id":"1020","type":"Grid"},{"attributes":{"formatter":{"id":"1042","type":"BasicTickFormatter"},"ticker":{"id":"1017","type":"BasicTicker"}},"id":"1016","type":"LinearAxis"},{"attributes":{"source":{"id":"1047","type":"ColumnDataSource"}},"id":"1051","type":"CDSView"},{"attributes":{"below":[{"id":"1012","type":"CategoricalAxis"}],"center":[{"id":"1015","type":"Grid"},{"id":"1020","type":"Grid"},{"id":"1045","type":"Legend"}],"left":[{"id":"1016","type":"LinearAxis"}],"plot_width":1200,"renderers":[{"id":"1037","type":"GlyphRenderer"},{"id":"1050","type":"GlyphRenderer"}],"title":{"id":"1002","type":"Title"},"toolbar":{"id":"1027","type":"Toolbar"},"x_range":{"id":"1004","type":"FactorRange"},"x_scale":{"id":"1008","type":"CategoricalScale"},"y_range":{"id":"1006","type":"DataRange1d"},"y_scale":{"id":"1010","type":"LinearScale"}},"id":"1001","subtype":"Figure","type":"Plot"},{"attributes":{"callback":null,"data":{"x":["NUCLEAR ENGINEERING","PUBLIC ADMINISTRATION","COMPUTER NETWORKING AND TELECOMMUNICATIONS","CLINICAL PSYCHOLOGY","PUBLIC POLICY","COMMUNICATION TECHNOLOGIES","MINING AND MINERAL ENGINEERING","COMPUTER PROGRAMMING AND DATA PROCESSING","GEOGRAPHY","ARCHITECTURE"],"y":{"__ndarray__":"1G61oZf0sD+VQQJBcdO1P4u9tmeWWrI/SBdzxr6atD+VQQJBcdO1P4u9tmeWWrI/1G61oZf0sD+LvbZnllqyP5QPbvSVwLg/1G61oZf0sD8=","dtype":"float64","shape":[10]}},"selected":{"id":"1070","type":"Selection"},"selection_policy":{"id":"1069","type":"UnionRenderers"}},"id":"1047","type":"ColumnDataSource"},{"attributes":{},"id":"1040","type":"CategoricalTickFormatter"},{"attributes":{},"id":"1059","type":"Selection"},{"attributes":{"label":{"value":"Major"},"renderers":[{"id":"1037","type":"GlyphRenderer"}]},"id":"1046","type":"LegendItem"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"top":{"field":"top"},"width":{"value":0.4},"x":{"field":"x"}},"id":"1035","type":"VBar"}],"root_ids":["1001"]},"title":"Bokeh Application","version":"1.4.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1181').textContent;
+                  var render_items = [{"docid":"24a7eb36-fcc6-4786-ad00-879a707b27e1","roots":{"1001":"16d29970-516b-4fef-9a1b-bd1cbf47f9ac"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
